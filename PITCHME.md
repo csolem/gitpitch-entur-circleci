@@ -249,12 +249,16 @@ Men det fungerer ikke med `/bin/sh`. Da må man bruke `/bin/bash`
 ## Ulemper med CircleCi 7
 CircleCI CLI fungerer ikke med workflows
 
+---
 
 ## Ulemper med CircleCi 8
 Det finnes ikke noe circleci-image med docker, bash og det vanlige. Så man må velge ruby, java osv.
+
 Se: https://circleci.com/docs/2.0/circleci-images/
 
-Diskutert her: https://discuss.circleci.com/t/circleci-images-for-2-0/12070
+Diskutert her:
+
+https://discuss.circleci.com/t/circleci-images-for-2-0/12070
 
 ---
 
