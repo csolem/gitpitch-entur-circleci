@@ -181,10 +181,7 @@ Se cci-config i https://github.com/entur/netex-java-model/blob/master/.circleci/
 ![build_dependencies](images/build_dependencies.png)
 
 draw.io xml-fil for denne tegningen ligger her:
-
-![build_dependencies](build_dependencies.xml)
-
-
+https://github.com/csolem/gitpitch-entur-circlecibuild_dependencies.xml
 
 ---
 
