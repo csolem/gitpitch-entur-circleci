@@ -242,7 +242,7 @@ Problemer med å passe environment variabler ned til script. Dette går ikke an:
               echo 'export PATH="$GOPATH/bin:$PATH"' >> $BASH_ENV
               echo 'export GIT_SHA1="$CIRCLE_SHA1"' >> $BASH_ENV
 ```
-Men det fungerer ikke med /bin/sh. Da må man bruke /bin/bash :thumbsup:
+Men det fungerer ikke med `/bin/sh`. Da må man bruke `/bin/bash`
 
 ---
 
