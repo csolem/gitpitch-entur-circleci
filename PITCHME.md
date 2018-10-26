@@ -177,6 +177,14 @@ Se cci-config i https://github.com/entur/netex-java-model/blob/master/.circleci/
 
 ---
 
+## Byggavhengigheter
+![build_dependencies](images/build_dependencies.png)
+draw.io xml-fil for denne tegningen ligger her:
+[build_dependencies](build_dependencies.xml)
+
+
+---
+
 ## Personlige API-token
 
 Personlig API-token for å trigge workflows med Curl.
