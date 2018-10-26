@@ -108,7 +108,7 @@ F.eks nexus/jfrog-innlogging.
 
 Logg inn i container som kjører jobben.
 Supert for feilsøking.
-
+Klipp og lim inn ssh-kommando i egen terminal.
 
 ---
 
@@ -127,6 +127,30 @@ Bygglogg er åpne default når repo er åpent.
 Man kan ikke bygge (kjøre tester) pull requester så lenge vi trenger secrets for å kjøre testene.
 Ikke bra for samarbeid med andre parter.
 Løsninger på dette?
+
+---
+
+## CircleCi toolbox image
+
+* https://github.com/entur/circleci-toolbox-image
+* Et docker-image laget for vårt team å forenkle vår CircleCI-config og unngå duplisering.
+* Inneholder blant mer: gjenbrukbare script, docker client, gcloud, xml-pakker, libpng-dev, build-essential og ruby.
+* Det kjøres shell-check på script (får ikke dette med kommandoer i circleci-config)
+* Toolbox-imaget blir bygget med..... CircleCI
+
+---
+
+## Benytte seg av CircleCi toolbox image
+```
+jobs:
+  build:
+    docker:
+      - image: eu.gcr.io/carbon-1287/circleci-toolbox-image
+        auth:
+          username: _json_key
+          password: $GCLOUD_SERVICE_KEY
+```
+Imaget kunne egentlig vårt åpent i gcr for å unngå autentisering
 
 ---
 
@@ -219,15 +243,17 @@ CircleCI CLI fungerer ikke med workflows
 
 
 ## Ulemper med CircleCi 8
-Det finnes ikke noe circleci-image med docker, bash og det vanlige. Så man må velge ruby, java osv. ** https://circleci.com/docs/2.0/circleci-images/
-Diskutert her:
-https://discuss.circleci.com/t/circleci-images-for-2-0/12070
+Det finnes ikke noe circleci-image med docker, bash og det vanlige. Så man må velge ruby, java osv.
+Se: https://circleci.com/docs/2.0/circleci-images/
+
+Diskutert her: https://discuss.circleci.com/t/circleci-images-for-2-0/12070
 
 ---
 
 ## TODO
 * Flytte alle manuelle jobber som vi fortsatt trenger fra Devsetup/Vagrant til separate repoer med CircleCI-bygging.
 * Bygge Pull Requester fra forks
+* Bytte ut Nexus med JFrog (se settings-fil i `circleci-toolbox-image/tools/m2/settings.xml`)
 
 ---
 
