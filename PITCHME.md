@@ -259,7 +259,7 @@ Diskutert her: https://discuss.circleci.com/t/circleci-images-for-2-0/12070
 
 ### Links
 Presentasjonens URL:
-https://gitpitch.com/csolem/gitputch-entur-circleci#/
+https://gitpitch.com/csolem/gitpitch-entur-circleci
 
 Presentasjonen på github
-https://github.com/csolem/gitputch-entur-circleci#/
+https://github.com/csolem/gitpitch-entur-circleci
