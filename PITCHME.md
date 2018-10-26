@@ -54,7 +54,7 @@ Eks:
 ---
 
 ## Github Checks
-(Checks)[images/checks.png]
+![checks](images/checks.png)
 
 ---
 
