@@ -100,8 +100,10 @@ F.eks nexus/jfrog-innlogging.
 ## CircleCI CLI
 
 * Validere config lokalt
+
   `circleci config validate`
 * Kjøre jobber lokalt. (workflows og cache ikke støttet)
+
   `circleci local execute --job`
 
 ---
