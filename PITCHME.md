@@ -48,7 +48,7 @@ Eks: https://github.com/entur/anshar
 Kopieres fra settings
 Eks:
 ```
-[![CircleCI](https://circleci.com/gh/entur/tiamat/tree/master.svg?style=svg)](https://circleci.com/gh/entur/tiamat/tree/master)
+[![CircleCI](https://circleci.com/gh/entur/anshar/tree/master.svg?style=svg)](https://circleci.com/gh/entur/anshar/tree/master)
 ```
 
 ---
