@@ -214,19 +214,19 @@ Finnes ikke dette på 2.0?
 
 ## Ulemper med CircleCi 3
 
-MÅ bruke personlig API token for å kalle workflows. Får ikke til med prosjekt-API-nøkkel.
+Må bruke personlig API token for å kalle workflows API. Får ikke til med prosjekt-API-nøkkel.
 
 ---
 ## Ulemper med CircleCi 4
 
 Av og til, når andre brukere har gjort endringer, må man gjøre hard refresh for å se endringer?
+Kan det være nettet her?
 
 ---
 ## Ulemper med CircleCi 5
 
 Det er mye ventetid for triviell funksjonalitet å komme på plass:
 https://discuss.circleci.com/t/triggering-workflows-by-api/22673
-
 
 ---
 ## Ulemper med CircleCi 6
@@ -238,7 +238,7 @@ Problemer med å passe environment variabler ned til script. Dette går ikke an:
           environment:
             GCLOUD_SERVICE_KEY: $GCLOUD_SERVICE_KEY
 ```
-
+Men dette går:
 ```
         - run:
             name: Setup Environment Variables
@@ -268,8 +268,9 @@ https://discuss.circleci.com/t/circleci-images-for-2-0/12070
 
 ## TODO
 * Flytte alle manuelle jobber som vi fortsatt trenger fra Devsetup/Vagrant til separate repoer med CircleCI-bygging.
-* Bygge Pull Requester fra forks
+* Bygge Pull Requester fra forks på en sikker måte
 * Bytte ut Nexus med JFrog (se settings-fil i `circleci-toolbox-image/tools/m2/settings.xml`)
+* Fjerne Babylon og bruke noe som plattformteamet velger
 
 ---
 
