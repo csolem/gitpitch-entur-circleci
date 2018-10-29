@@ -269,7 +269,8 @@ https://discuss.circleci.com/t/circleci-images-for-2-0/12070
 
 CircleCI 4G memory limit
 
-CricleCI standard løsning har resource limit som hinder og kjøre prosjkter med høye memmory burk.
+CircleCI-standard løsning har resource limit som hindrer å kjøre prosjekter med høyere minnebruk.
+Man kan få en annen betalingsplan for å unngå dette. Men da må man kontakte support.
 
 ---
 
