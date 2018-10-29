@@ -154,7 +154,7 @@ jobs:
           username: _json_key
           password: $GCLOUD_SERVICE_KEY
 ```
-Imaget kunne egentlig vårt åpent i gcr for å unngå autentisering
+Imaget kunne egentlig vært åpent i gcr for å unngå autentisering
 
 ---
 
