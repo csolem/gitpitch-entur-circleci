@@ -265,6 +265,13 @@ Diskutert her:
 https://discuss.circleci.com/t/circleci-images-for-2-0/12070
 
 ---
+## Ulemper med CircleCi 9
+
+CircleCI 4G memory limit
+
+CricleCI standard løsning har resource limit som hinder og kjøre prosjkter med høye memmory burk.
+
+---
 
 ## TODO
 * Flytte alle manuelle jobber som vi fortsatt trenger fra Devsetup/Vagrant til separate repoer med CircleCI-bygging.
