@@ -60,7 +60,7 @@ Eks:
 
 ## Slack-integrasjon
 
-Må legges til per repository. Kopier URL fra et annet oppsett.
+Må legges til per repository. Kopier URL fra et annet prosjekt.
 
 ---
 
@@ -100,7 +100,9 @@ F.eks nexus/jfrog-innlogging.
 ## CircleCI CLI
 
 * Validere config lokalt
+  `circleci config validate`
 * Kjøre jobber lokalt. (workflows og cache ikke støttet)
+  `circleci local execute --job`
 
 ---
 
